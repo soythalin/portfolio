@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Showcasing skills and projects">
+    <title>Portfolio | John Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-code"></i> Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 text-white">
+                    <h1 class="display-4 fw-bold mb-3">Hi, I'm John Developer</h1>
+                    <p class="lead mb-4">Full Stack Developer | Web Designer | Tech Enthusiast</p>
+                    <p class="mb-4">I create beautiful, responsive websites and applications that solve real-world problems.</p>
+                    <div class="btn-group-vertical d-grid gap-2">
+                        <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-none d-lg-block">
+                    <div class="hero-image">
+                        <i class="fas fa-laptop-code fa-10x text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image">
+                        <div class="placeholder-avatar">
+                            <i class="fas fa-user-circle fa-10x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-3">I'm a passionate developer</h3>
+                    <p class="mb-3">
+                        With 3+ years of experience in web development, I specialize in creating modern, 
+                        responsive websites that deliver exceptional user experiences. I'm proficient in 
+                        HTML, CSS, JavaScript, and various frameworks.
+                    </p>
+                    <p class="mb-3">
+                        I'm passionate about clean code, user-friendly interfaces, and continuous learning. 
+                        I enjoy working on projects that challenge me and allow me to grow as a developer.
+                    </p>
+                    <div class="info-grid">
+                        <div>
+                            <strong>Email:</strong>
+                            <p><a href="mailto:john@example.com">john@example.com</a></p>
+                        </div>
+                        <div>
+                            <strong>Location:</strong>
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div>
+                            <strong>Phone:</strong>
+                            <p><a href="tel:+14155551234">+1 (415) 555-1234</a></p>
+                        </div>
+                        <div>
+                            <strong>Experience:</strong>
+                            <p>3+ Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <!-- Frontend Skills -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card">
+                        <i class="fas fa-pen-fancy skill-icon"></i>
+                        <h4>Frontend</h4>
+                        <ul class="skill-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card">
+                        <i class="fas fa-server skill-icon"></i>
+                        <h4>Backend</h4>
+                        <ul class="skill-list">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Python</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Database & Tools -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4>Database & Tools</h4>
+                        <ul class="skill-list">
+                            <li>MongoDB</li>
+                            <li>PostgreSQL</li>
+                            <li>Firebase</li>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Additional Skills -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h4>Additional</h4>
+                        <ul class="skill-list">
+                            <li>Web Design</li>
+                            <li>UI/UX</li>
+                            <li>Responsive Design</li>
+                            <li>Deployment</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-shopping-cart fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>E-Commerce Platform</h4>
+                            <p class="project-description">
+                                A full-stack e-commerce solution with product catalog, shopping cart, 
+                                and secure payment integration.
+                            </p>
+                            <div class="project-tags">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Node.js</span>
+                                <span class="badge bg-primary">MongoDB</span>
+                            </div>
+                            <div class="project-links mt-3">
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-tasks fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Task Management App</h4>
+                            <p class="project-description">
+                                A collaborative task management application with real-time updates, 
+                                user authentication, and team collaboration features.
+                            </p>
+                            <div class="project-tags">
+                                <span class="badge bg-success">Vue.js</span>
+                                <span class="badge bg-success">Firebase</span>
+                            </div>
+                            <div class="project-links mt-3">
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Analytics Dashboard</h4>
+                            <p class="project-description">
+                                An interactive analytics dashboard with real-time data visualization, 
+                                custom reports, and data-driven insights.
+                            </p>
+                            <div class="project-tags">
+                                <span class="badge bg-info">D3.js</span>
+                                <span class="badge bg-info">Python</span>
+                            </div>
+                            <div class="project-links mt-3">
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h4 class="mb-4">Contact Information</h4>
+                    <div class="contact-info mb-4">
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <a href="mailto:john@example.com">john@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:+14155551234">+1 (415) 555-1234</a>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-3">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div>
+                                <h5>Location</h5>
+                                <p>San Francisco, CA, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="mb-3">Follow Me</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Portfolio"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Send Me a Message</h4>
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                    <p class="mb-0">&copy; 2026 John Developer. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#home" class="text-white text-decoration-none">Back to Top <i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
