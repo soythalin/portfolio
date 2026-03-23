@@ -172,11 +172,19 @@ section:nth-child(even) {
     margin-bottom: 2rem;
 }
 
+.profile-img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    animation: none !important;
+}
+
 .placeholder-avatar {
     display: inline-block;
     color: var(--primary-color);
     opacity: 0.8;
-    animation: float 3s ease-in-out infinite;
+    animation: none;
 }
 
 .info-grid {
